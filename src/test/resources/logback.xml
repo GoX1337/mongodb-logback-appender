@@ -1,6 +1,0 @@
-<configuration debug="true">
-    <appender name="map" class="org.gox.logback.appender.MongoDbAppender"/>
-    <root level="info">
-        <appender-ref ref="map"/>
-    </root>
-</configuration>
